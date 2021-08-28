@@ -1,13 +1,17 @@
 <?php
 namespace App;
-use Core\WebEngine;
+use App\Core\WebEngine;
 
 class App
 {
-    public function contructor()
+    public function __construct()
     {
         $webengine = new WebEngine();
         $webengine->initialize();
         $webengine->start();
+    }
+
+    public function start(): void {
+        //TODO : Implement method
     }
 }
