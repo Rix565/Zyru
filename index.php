@@ -1,6 +1,6 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
 use App\App;
-
-$zyru = new App();
-$zyru.Start();
+$app = new App();
+$app.Start();
 ?>
