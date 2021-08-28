@@ -4,7 +4,7 @@ use Core\WebEngine;
 
 class App
 {
-    public function __construct()
+    public function contructor()
     {
         $webengine = new WebEngine();
         $webengine->initialize();
